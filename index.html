@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin form</title>
+</head>
+<style>
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    }
+    .signup
+    {
+        width: 300px;
+        box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+        background:#fff;
+        padding: 20px;
+        margin:8% auto 0;
+        text-align: center;
+        font-family: sans-serif;
+        border-radius: 30px;
+    }
+    .signup h1
+    {
+        color:darkred;
+        margin-bottom: 30px;
+    }
+    .input-box
+    {
+        border-radius: 30px;
+        padding: 10px;
+        margin: 10px;
+        width: 80%;
+        border: 1px solid #999;
+        outline: none;
+    }
+    .signup-bt
+    {
+        color:#fff;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 15px;
+        margin: 10px 0;
+        cursor:pointer;
+        background-color: hsl(33, 74%, 50%);
+    }
+    .signup-btn
+    {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 10px;
+    }
+    hr
+    {
+        margin-top: 20px;
+        width: 80%;
+    }
+    .or
+    {
+        background: rgb(5, 179, 214);
+        width: 30px;
+        margin: -19px auto 10px;
+    }
+    img
+    {
+        width: 70px;
+        margin-top: -50px;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class = "signup">
+        <img src="logo.png">
+        <h1>Sign Up Now</h1>
+        <form>
+            <input type = "email" class="input-box" placeholder="Your Email">
+            <input type ="password" class="input-box" placeholder="Your Password">
+            <p><span><input type = "checkbox"></span> I Agree the terms and conditions</p>
+            <button type = "button" class = "signup-btn">Sign up</button>
+            <hr>
+            <p class = "or">OR</p>
+            <button type = "button" class = "signup-bt">login with twitter</button>
+            <p>Do you have an account ? <a href = "#">Sign in</a></p>
+
+        </form>
+    </div> 
+</body>
+</html>
